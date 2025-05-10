@@ -1,0 +1,63 @@
+---
+#Sequence (List)
+colors: !!seq
+  - Red
+  - Green
+  - Blue
+
+#Some of the keys of the sequence will be empty then its known as sparce sequence:
+sparseList:
+  - Apple
+  - 
+  - Banana
+  - null
+  - Mango
+
+#NestedSequence:
+NestedSequence:
+-
+ - Banana
+ - Apple
+-
+ - Carrot
+ - Bottlegaurd
+
+#Key-Value Pairs are called "Maps"
+person: !!map
+  name: Ganesh
+  age: 25
+
+#Nested Map
+Topic:
+  Name: Ganesh
+  Age: 26
+  Status: single
+Education:
+  10th: 2015
+  Inter: 2017
+  Btech: 2021
+
+#Pairs: Single Key may have multiple values
+pair example: !!pairs
+ - Job: Teacher
+ - Job: LIC Agent
+
+# !!set will allow to have unique values:
+Names: !!set
+  ? Ganesh
+  ? Rahul
+  ? Sandeep
+  ? Bunny
+
+#dictionary !!omap
+People: !!omap
+ - Ganesh:
+    - name: Ganesh Koppula
+    - age: 26
+
+ - Raj:
+    - name: Rajkumar
+    - age: 30
+
+
+

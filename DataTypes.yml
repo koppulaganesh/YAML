@@ -1,0 +1,64 @@
+---
+#Variables
+Name1: Ganesh
+Name2: "Ganesh" #String Variable
+Name: 'Ganesh Koppula' #String Variable
+
+#To write multi lines associated to variable: (doubt)
+
+MyBio: "I am Ganesh Koppula. I have dome my Garduation in 2021"
+
+#To write a msingle line in multiple lines ( ut it will be considered as a single line):
+
+Message: >
+ Hello
+ everyone
+ hope you are doing fine.
+
+#Note: The above is same as below:
+Message1: "Hello everyone hopw you all are doing well"
+
+#Integer:
+Number: 9182
+
+#Float
+Float: 91.82
+
+#Boolean:
+Boolean: true #True, TRUE, y, Y
+boolean: false #FALSE, False, N, n
+
+Boolean1: yes
+Boolean2: No
+
+Switch: on
+Switch2: off
+
+#Note: YAML automatically detects the datatypes
+
+#Specify the data type:
+#integer:
+one: !!int 1
+two: !!int 2
+
+
+#Float/decimal
+pi: !!float 3.14
+temperature: !!float -7.5
+
+#String
+name: !!str Ganesh
+note: !!str "Hello, YAML!"
+
+#Boolean:
+isActive: !!bool true
+isBlocked: !!bool false
+
+#Null:
+nothingHere: !!null null
+
+
+
+
+
+

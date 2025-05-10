@@ -1,0 +1,35 @@
+--- #start
+#YAML (YAML Ain't Markup Language) is a case sensitive
+#example: Apple =! apple
+#Key-value pairs:
+"Name": "Ganesh Koppula"
+"Age" : "26"
+"Sex" : "Male"
+"Status" : "Single Ready to Mingle"
+
+#Lists:
+Family Member:
+ - Father
+ - Mother
+ - Son
+#Indentation (Space) is Important
+
+
+# https://www.yamllint.com/ (used to validate the yaml format)
+---
+Name: Ganesh Koppula
+Age: "26"
+Family Member:
+ - Father
+ - Mother
+ - Son
+
+---
+
+Cities: [New Delhi, Mumbai, Hyderabad] #Array
+
+---
+
+{Rose : "Red", Sunflower : "Yellow", Jasmine : "White"} #Dictionary
+
+... #end
