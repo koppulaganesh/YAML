@@ -59,5 +59,16 @@ People: !!omap
     - name: Rajkumar
     - age: 30
 
+#Resusing some properties using anchors:
+# Define an anchor &Likes
+Person1: &Likes
+  fav fruit: Mango
+  dislikes: grapes
+
+# Use the anchor *Likes to copy those values
+Person2:
+  <<: *Likes
+
+
 
 
